@@ -1501,7 +1501,7 @@ img.mfp-img {
 .heroSmallColor,
 .bgImage { 
 	min-height: 840px;
-	height: 300px%;
+	height: 75%;
 	background-size: cover;
 }
 
@@ -1523,7 +1523,7 @@ img.mfp-img {
 	content: '';
 	position: absolute;
 	width: 100%;
-	height: 60%;
+	height: 75%;
 	top: 0;
 	display: block;
 	background: rgba(255, 255, 255, 0.6);
@@ -1762,7 +1762,7 @@ img.mfp-img {
 	width: 100%;
 	max-width: 89.5em;
 	margin: 0 auto;
-	height: auto;
+	height: 75%;
 	padding: 0;
 }
 
@@ -1773,7 +1773,7 @@ img.mfp-img {
 .fullWidth .stretched {
 	max-width: 100%;
 	width: 100%;
-	height: auto;
+	height: 75%;
 }
 
 
