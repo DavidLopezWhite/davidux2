@@ -4681,9 +4681,14 @@ color:#fff; text-shadow: 0 0 12px #000;}
 #logo{
 	max-width: 260px;
 }
-#PjHead{
+#projects{
 	padding-bottom: 10px;
 }
 input{
 	background: #ddd;
+}
+.btnDload {
+	display: block;
+	max-width: 260px;
+	margin: 0 auto;
 }
