@@ -1508,7 +1508,7 @@ img.mfp-img {
 .heroSmall,
 .heroSmallBlack,
 .heroSmallColor {
-	min-height: 600px;
+	min-height: 700px;
 }
 
 .hero:after,
@@ -1526,7 +1526,7 @@ img.mfp-img {
 	height: 100%;
 	top: 0;
 	display: block;
-	background: rgba(255, 255, 255, 0.6);
+	background: rgba(255, 255, 255, 0.2); /*this is the colored mask over the hero image */
 }
 
 .heroBlack:after,
@@ -1550,7 +1550,7 @@ img.mfp-img {
 	color: rgba(255, 255, 255, 1);
 }
 
-.heroIntro { z-index: 2; }
+.heroIntro { z-index: 2;}
 
 /* Hero Slider Styles
 -----------------------------------------------------------------*/
@@ -2394,7 +2394,7 @@ ul.folioMeta + .shareBtns { margin-top: 20px; }
 
 .blogImage:hover img { opacity: 0.5; }
 
-.blogHero .heroIntro h1 { font-size: 2rem; }
+.blogHero .heroIntro h1 { font-size: 2rem;}
 
 .blogHero .shareBtns { float: left; }
 
@@ -4665,4 +4665,22 @@ ul#twitter-widget { margin-bottom: 10px; }
 
 	.footerBig #footerNav {	float: right; }
 
+}
+
+/* CUSTOM */
+.heroIntro h6{
+
+	font-weight: bold;
+	font-size: 110%
+}
+.heroIntro h1,h6{
+color:#fff; text-shadow: 0 0 12px #000;}
+.transparentHeader{
+	    opacity: 0.87;
+}
+#logo{
+	max-width: 260px;
+}
+#PjHead{
+	padding-bottom: 10px;
 }
