@@ -3347,17 +3347,17 @@ textarea { box-shadow: none!important; }
 #contact form input,
 #contact textarea,
 #contact select {
-	background: #fcfcfc;
+	background: #f9f9f9;
 	border: none;
 	box-shadow: none;
-	border-bottom: 1px solid rgba(42, 43, 47, 1);
+	border-bottom: 1px solid #777;
 	margin-bottom: 40px;
 }
 
 #contact form input:focus,
 #contact textarea:focus,
 #contact select:focus {
-	background-color: rgba(255, 255, 255, 0.6);
+	background-color: #fff;
 	outline: none;
 }
 
@@ -4683,9 +4683,6 @@ color:#fff; text-shadow: 0 0 12px #000;}
 }
 #projects{
 	padding-bottom: 0px;
-}
-input{
-	background: #ddd;
 }
 .btnDload {
 	display: block;
