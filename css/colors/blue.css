@@ -127,7 +127,7 @@ div.faqNav a.is-checked {
 .footerWidgets a:hover,
 .footerWidgets a:hover [class^="icon-"] { color: rgba(6, 179, 230, 0.9); }
 
-label { color: rgba(6, 179, 230, 0.7); }
+label { color: #000; font-weight: bold; }
 
 
 @media only screen and (min-width: 64.0625em) {

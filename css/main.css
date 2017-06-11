@@ -2153,7 +2153,7 @@ div.folioNav a:hover { color: rgba(42, 43, 47, 1); }
 .bgColor div.folioNav a:hover,
 .bgBlack div.folioNav a:hover { color: rgba(255, 255, 255, 1); }
 
-.projectsWrapper { padding: 60px 20px; }
+.projectsWrapper { padding: 0 20px 60px 20px; }
 
 .portfolio,
 ul.folioMeta { margin-bottom: 0; }
@@ -3347,7 +3347,7 @@ textarea { box-shadow: none!important; }
 #contact form input,
 #contact textarea,
 #contact select {
-	background: transparent;
+	background: #fcfcfc;
 	border: none;
 	box-shadow: none;
 	border-bottom: 1px solid rgba(42, 43, 47, 1);
@@ -3465,7 +3465,7 @@ input[type="email"]:focus {
   	box-shadow: none;
 }
 
-label { color: rgba(229, 90, 84, 0.7); }
+label { color: #000); }
 
 label, label.error { font-style: italic; }
 
@@ -3501,7 +3501,7 @@ label, label.error { font-style: italic; }
 }
 
 .iconList li:not(:last-child) {
-	border-bottom: 1px solid rgba(42, 43, 47, 0.1);
+	border-bottom: 0px solid rgba(42, 43, 47, 0.1);
 }
 
 .bgBlack .iconList li:not(:last-child),
@@ -4305,7 +4305,7 @@ ul#twitter-widget { margin-bottom: 10px; }
 
 	.error404 { font-size: 8rem; }
 
-	.projectsWrapper { padding: 80px 40px; }
+	.projectsWrapper { padding: 0 40px 80px 40px; }
 
 	div.folioNav { padding: 40px 0 40px 40px; }
 
@@ -4683,4 +4683,7 @@ color:#fff; text-shadow: 0 0 12px #000;}
 }
 #PjHead{
 	padding-bottom: 10px;
+}
+input{
+	background: #ddd;
 }
