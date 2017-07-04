@@ -431,7 +431,7 @@ body.boxed,
 
 .bgBlack { background-color: rgba(42, 43, 47, 1); }
 
-.bgColor { background-color: rgba(229, 90, 84, 1); }
+.bgColor { background-color: rgba(0, 79, 111, 1); }
 
 
 /* ==============================================================
@@ -1526,7 +1526,7 @@ img.mfp-img {
 .heroColor:after,
 .heroSmallColor:after,
 .heroSlideColor:after {
-	background: rgba(229, 90, 84, 0.7);
+	background: rgba(0, 79, 111, 0.7);
 }
 
 .heroBlack *:not([class="button"]),
@@ -3439,7 +3439,7 @@ input[type="email"] {
 .bgColor input[type="submit"] {
   	background-color: rgba(255, 255, 255, 1);
   	border: 1px solid rgba(255, 255, 255, 1);
-  	color: rgba(229, 90, 84, 1);
+  	color: rgba(0, 79, 111, 1);
 }
 
 input[type="submit"]:focus,
