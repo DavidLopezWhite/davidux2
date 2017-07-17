@@ -4668,7 +4668,7 @@ ul#twitter-widget { margin-bottom: 10px; }
 }
 /* causes issue with typography template small header on project 1 */
 .heroIntro h1,h6{
-color:#fff; text-shadow: 0 0 12px #000;}
+color:#fff; text-shadow: 0 0 3px #000;}
 .transparentHeader{
 	    opacity: 0.87;
 }
@@ -4689,4 +4689,16 @@ color:#fff; text-shadow: 0 0 12px #000;}
 }
 .bgColor-o{
 	background-color: rgba(219, 162, 45, 100);
+}
+.bgColor-r{
+	background-color: rgba(193, 5, 5, 100);
+}
+.divider-y{
+	background-color: rgba(219, 162, 45, 100);
+}
+.basicSlider{
+		background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
